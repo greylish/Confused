@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15975544993",
+    "project_id": "confused-8ee3b",
+    "storage_bucket": "confused-8ee3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15975544993:android:35cf0eed83a80cb90a18e0",
+        "android_client_info": {
+          "package_name": "com.jayson.confused"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcc6oeAtX0cyoL3PBRqymkJR8F9V0Slic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
