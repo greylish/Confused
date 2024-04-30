@@ -10,6 +10,7 @@ import com.jayson.confused.ui.theme.screens.about.AboutScreen
 import com.jayson.confused.ui.theme.screens.gallery.GalleryScreen
 import com.jayson.confused.ui.theme.screens.home.HomeScreen
 import com.jayson.confused.ui.theme.screens.product.AddProductsScreen
+import com.jayson.confused.ui.theme.screens.product.ViewUploadsScreen
 import com.jayson.confused.ui.theme.screens.profile.ProfileScreen
 import com.jayson.confused.ui.theme.screens.register.RegisterScreen
 
@@ -27,5 +28,8 @@ fun AppNavHost(modifier: Modifier=Modifier,
         composable(ROUTE_REGISTER){ RegisterScreen(navController)}
         composable(ROUTE_PROFILE){ ProfileScreen(navController)}
         composable(ROUTE_ADD_PRODUCT){ AddProductsScreen(navController)}
+        composable(ROUTE_VIEW_UPLOAD){
+            ViewUploadsScreen(navController)
+        }
     }
 }
